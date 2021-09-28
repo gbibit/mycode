@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """A simple script to move two files into ceph_storage/
-   Alta3 LAB 18 | GBibit"""
+   Alta3 LAB 17 | GBibit"""
 
 # standard library imports
 import shutil

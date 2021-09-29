@@ -35,8 +35,8 @@ def main():
     # print 'white string' in white
     print(crayons.white('white string', bold=True))
 
-    # print my first name 'glenn' in blue and my last name 'bibit' in yellow
-
+    # print my name in two different colors
+    print(crayons.blue('glenn', bold=True), (crayons.yellow('bibit', bold=True)))
 
 # we must call our main function or our code will not run!
 main()

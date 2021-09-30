@@ -26,6 +26,9 @@ def main():
     # This is much easier than using the urllib.request library
     cards = resp.json()
 
+    with open("4ed_cards.set", "w") as of:
+        print(cards, file=of)
+
     print(cards)
 
 if __name__ == "__main__":
